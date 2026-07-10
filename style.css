@@ -1,0 +1,141 @@
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border: none;
+}
+.common-btn{
+    background-color: rgb(19, 19, 207);
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size:15px;
+    font-weight:bold;
+    color: white;
+    border:none;
+    
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap:10px;
+    align-items: center;
+    font-size: 23px;
+}
+.hero{
+    background-image:url("assets/banner.jpg");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: center;
+    background-repeat: no-repeat;
+    
+}
+.hero-content{
+    position:relative;
+    width :500px;
+    color: white;
+text-align: center;
+    
+}
+.hero-content h1{
+    font-size:65px;
+    
+    margin-bottom:5px;
+
+
+}
+.hero-content p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top:0px;
+    padding: 5px;
+    
+    
+}
+.res-btn{
+
+display:inline-block;
+    padding:15px 35px;
+    background:#2563eb;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    margin-top:350px;
+}
+.container-about-speakers{
+margin: auto;
+width: 1200px;
+text-align:relative;
+font-size: 30px;
+
+}
+.container-about-speakers s1{
+    text-align:center;
+    margin bottom:50px;
+    font-size :42px;
+    font-weight:bold;
+
+
+}
+.container-about-speakers{
+
+width: 1200px;
+margin: auto;
+
+
+
+}
+.about-card-speakers{
+
+ display: grid;
+ gap:20px;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+
+
+.card{
+width: 100%;
+padding:5px 5px;
+
+
+}
+.card-content{
+
+padding :50px
+border-radius:5px;
+border:10px;
+font-size: 20px;
+margin-bottom:50px;
+
+}
+.card img{
+width: 100%;
+height: 300px;
+padding-top: 10px;
+
+}
+.category{
+font-size: 30px;
+color:rgb(95, 164, 187) ;
+margin-bottom:100px ;
+margin-top: 50px;
+
+
+}
+.meet{
+    text-align: center;
+}
