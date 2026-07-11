@@ -83,8 +83,8 @@ font-size: 30px;
 }
 .container-about-speakers s1{
     text-align:center;
-    margin bottom:50px;
-    font-size :42px;
+    margin-bottom:50px;
+    font-size:42px;
     font-weight:bold;
 
 
@@ -115,10 +115,10 @@ padding:5px 5px;
 }
 .card-content{
 
-padding :50px
+padding :50px;
 border-radius:5px;
 border:10px;
-font-size: 20px;
+font-size:20px;
 margin-bottom:50px;
 
 }
@@ -138,4 +138,130 @@ margin-top: 50px;
 }
 .meet{
     text-align: center;
+}
+.pricing{
+    max-width: 1200px;
+    margin: 80px auto;
+    width: 90%;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.heading h1{
+    color:#111827;
+    font-size: 60px;
+    font-weight: 700;
+}
+.heading p{
+    margin-top: 10px;
+    /* color: rgb(70, 68, 68); */
+   color:  #666;
+   font-size: 25px;
+}
+
+.pricing-container{
+    display: flex ;
+    /* justify-content: center; */
+    gap: 15px;
+    flex-wrap: nowrap;
+}
+.box{
+
+    background:white;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding: 24px;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    
+}
+.box:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.per{
+    /* font-size: 15px; */
+    color:gray;
+    /* margin-bottom: 20px; */
+    font-size:20px ;
+    
+}
+    .box.active .per{
+    color:gray;
+    }
+hr{
+    margin:20px 0;
+    border:none;
+    border-top:1px solid rgba(0,0,0,.12);
+}
+
+.box.active hr{
+    border-top: 1px solid rgba(255,255,255,.15);
+}
+.box ul{
+    list-style:disc;
+    display: block;
+    padding-left: 20px;
+    margin: 0;
+    flex: 1;
+}
+
+.box ul li{
+    margin:15px 0;
+    font-size:25px;
+    position:relative;
+    padding-left:20px;
+    line-height:1.5;
+    
+    
+}
+.box button{
+    width:100%;
+    margin-top: 25px;
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid #2563eb ;
+    border-radius: 10px;
+    background-color: #fff;
+    color:#2563eb ;
+    font-weight: 1500;
+    font-size:25px;
+
+}
+.box.active button{
+    background:#2563eb ;
+    color: #fff; 
+    border: none;
+}
+.con-btn{
+    
+    color: #222;
+    border:1px solid #222;
+}
+.plan{
+    font-size:20px;
+    letter-spacing:1px;
+    color:#999;
+    font-weight:700;
+    letter-spacing: 1px;
+}
+.box.active .plan{
+    /* color:#cfd7e3; */
+    color: #8ab4ff;
+}
+.box.active{
+    background-color: #030b18;
+    color: gray;
+}
+.box h2{
+    font-size: 60px; 
+    margin: 10px 0 5px;
+}
+.box hr{
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #e5e7eb;
 }
