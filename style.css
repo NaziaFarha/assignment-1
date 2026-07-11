@@ -57,8 +57,8 @@ text-align: center;
 }
 .hero-content p{
     font-size: 20px;
-    margin-bottom: 30px;
-    margin-top:0px;
+    margin-bottom: 10px;
+    margin-top:0;
     padding: 5px;
     
     
@@ -310,4 +310,36 @@ hr{
     color: #666;
     margin-top: 15px;
 }
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+}
 
+.footer-content h2 {
+    font-size:55px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size:50px;
+    color: #cccccc;
+    margin-bottom: 15px;
+}
+
+.email {
+    font-size: 40px;
+}
+
+.email a {
+    color: #4da3ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 40px;
+}
+
+.email a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
