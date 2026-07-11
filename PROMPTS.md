@@ -1,0 +1,1 @@
+create a  sponsors section for a developers conference website portfolio using HTML and CSS.Add Google,Mircrosoft,Verce,GitHub as clickable links to their offical websites. Below them display the text : "Proudly supported by industry-leading technology companies."

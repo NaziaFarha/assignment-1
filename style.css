@@ -10,10 +10,10 @@ nav{
     border: none;
 }
 .common-btn{
-    background-color: rgb(19, 19, 207);
+    background-color: rgb(16, 16, 192);
     padding: 10px 20px;
     border-radius: 15px;
-    font-size:15px;
+    font-size: 20px;
     font-weight:bold;
     color: white;
     border:none;
@@ -56,7 +56,7 @@ text-align: center;
 
 }
 .hero-content p{
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 30px;
     margin-top:0px;
     padding: 5px;
@@ -67,12 +67,13 @@ text-align: center;
 
 display:inline-block;
     padding:15px 35px;
-    background:#2563eb;
+    background:#224fb1;
     color:#fff;
     text-decoration:none;
     border-radius:8px;
     font-weight:bold;
     margin-top:350px;
+    font-size: 20px;
 }
 .container-about-speakers{
 margin: auto;
@@ -265,3 +266,48 @@ hr{
     border: none;
     border-top: 1px solid #e5e7eb;
 }
+.sponsors {
+    padding: 80px 20px;
+    background: #f8f9fc;
+    text-align: center;
+}
+
+.sponsors h2 {
+    font-size: 50px;
+    color: #222;
+    margin-bottom: 40px;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+.sponsor-logos a {
+    text-decoration: none;
+    color: #335591;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 14px 28px;
+    background: #ffffff;
+    border: 2px solid #e5e5e5;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.sponsor-logos a:hover {
+    background: black;
+    color: #fff;
+    border-color: #2563eb;
+    transform: translateY(-4px);
+}
+
+.sponsor-text {
+    font-size: 40px;
+    color: #666;
+    margin-top: 15px;
+}
+
