@@ -1,12 +1,16 @@
 *{
     padding:0;
       font-family: "Inter", sans-serif;
+      
+      
+      
 }
 
 
 .container{
-    max-width: 100%;
+    width: 100%;
     margin: auto;
+    
 }
 nav{
     background-color: white;
@@ -45,6 +49,7 @@ ul{
     align-items: center;
     position: center;
     background-repeat: no-repeat;
+    width: 100%;
     
 }
 .hero-content{
